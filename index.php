@@ -1,4 +1,5 @@
-<?php include_once 'includes/header.php';?>
+<?php include_once 'config.php';?>
+<?php include_once ROOT_DIR.'/includes/header.php';?>
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
@@ -638,4 +639,4 @@
             </footer>
         </div>
     </div>
-<?php include_once 'includes/footer.php';?>        
+<?php include_once ROOT_DIR.'/includes/footer.php';?>        

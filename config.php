@@ -3,7 +3,7 @@
 
 // Đường dẫn
 define('PUBLIC_URL','');
-define('PI','3.14');
-const PI = 3.14;
+define('ROOT_DIR',dirname(__FILE__));
 
+echo ROOT_DIR;
 // Cấu hình CSDL
