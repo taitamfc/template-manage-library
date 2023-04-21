@@ -1,3 +1,7 @@
+<?php
+    // Include config 
+    include_once __DIR__ . "/../config.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,7 +12,7 @@
         <meta name="author" content="" />
         <title>Dashboard - SB Admin</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="<?= PUBLIC_URL; ?>/css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
